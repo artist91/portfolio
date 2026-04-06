@@ -12,8 +12,15 @@
 - 전문적이되 딱딱하지 않게
 
 ## 언어
-- 기본 언어: 한국어와 영어 병행 여부는 사용자와 결정
-- 직군 표기: Branding Planner / Designer / Writer
+- 한국어/영어 전환 버튼을 네비게이션에 배치
+- 모든 텍스트 콘텐츠는 아래 구조로 관리
+  ```ts
+  const content = {
+    ko: { title: "한국어 텍스트" },
+    en: { title: "English text" }
+  }
+  ```
+- 직군 표기: (ko) 브랜딩 기획자, 디자이너, 작가 / (en) Branding Planner, Designer & Writer
 
 ## Hero 섹션
 - 이름은 크고 명확하게
